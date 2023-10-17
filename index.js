@@ -20,7 +20,7 @@ Aşağıdakileri yap:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
-console.log(sesliHarfSayaci("bhjaanyn"));
+console.log(sesliHarfSayaci("sklrlyhns Eht593dj şksajdh)d89güpflhm"));
 
 
 let surucuYasi = 17;
@@ -208,9 +208,9 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yap:
 */
 
 function cocukSarkisi(i) {
+  i--;
 
   if(i > 1){
-    i--;
     cocukSarkisi(i);
   }
 
@@ -263,8 +263,8 @@ function sesliHarfSayaci(str) {
   let count = 0;
   let vowels = ['a','A','e','E','ı','I','i','İ','o','O','ö','Ö','u','U','ü','Ü'];
   
-  for(i = 0; i < arr.length;i++){
-    for(j = 0; j < vowels.length; j++){
+  for(let i = 0; i < arr.length;i++){
+    for(let j = 0; j < vowels.length; j++){
       if(arr[i] == vowels[j]){
         count++;
         j = vowels.length;
