@@ -20,6 +20,8 @@ Aşağıdakileri yap:
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
 
+console.log(sesliHarfSayaci("bhjaanyn"));
+
 
 let surucuYasi = 17;
 
@@ -260,6 +262,7 @@ function sesliHarfSayaci(str) {
   let arr = str.split('');
   let count = 0;
   let vowels = ['a','A','e','E','ı','I','i','İ','o','O','ö','Ö','u','U','ü','Ü'];
+  
   for(i = 0; i < arr.length;i++){
     for(j = 0; j < vowels.length; j++){
       if(arr[i] == vowels[j]){
@@ -268,6 +271,8 @@ function sesliHarfSayaci(str) {
       }
     }
   }
+
+  return count;
 }
 
 
